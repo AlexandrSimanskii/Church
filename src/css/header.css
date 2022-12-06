@@ -56,7 +56,7 @@
 
 .church {
   padding: 128px 0;
-  background: url(/Church/imagesChurch/img/churchbg.png) center/cover no-repeat;
+  background: url(../imagesChurch/img/churchbg.png) center/cover no-repeat;
 }
 
 .church__subtitle {
@@ -214,7 +214,7 @@
   background-position: center;
   margin: 128px 0;
   padding: 128px 366px;
-  background-image: url(/Church/imagesChurch/img/Background.png);
+  background-image: url(../imagesChurch/img/Background.png);
 }
 
 .last-section-inner {
@@ -396,17 +396,21 @@
   gap: 24px;
   color: white;
 }
+.cards__one {
+  padding: 208px 32px 32px;
+  background-image: url(..//imagesChurch/img/fashion-man-love-people-5875438.png);
+}
 
 .cards__second {
-  background-image: url(/Church/imagesChurch/img/a-statue-holding-a-holy-book-5613134.png);
+  background-image: url(../imagesChurch/img/a-statue-holding-a-holy-book-5613134.png);
 }
 
 .cards__third {
-  background-image: url(/Church/imagesChurch/img/man-people-woman-connection-6276711.png);
+  background-image: url(..//imagesChurch/img/man-people-woman-connection-6276711.png);
 }
 
 .cards__forth {
-  background-image: url(/Church/imagesChurch/img/woman-in-blue-tank-top-and-man-in-red-shirt-painting-3795022.png);
+  background-image: url(..//imagesChurch/img/woman-in-blue-tank-top-and-man-in-red-shirt-painting-3795022.png);
 }
 
 .watch-listen-card {
@@ -417,11 +421,6 @@
   letter-spacing: -0.01em;
   padding: 296px 32px 32px;
   background-repeat: no-repeat;
-}
-
-.cards__one {
-  padding: 208px 32px 32px;
-  background-image: url(/Church/imagesChurch/img/fashion-man-love-people-5875438.png);
 }
 
 .watch-listen-cards_white {
@@ -557,4 +556,4 @@
   top: -10%;
   padding-left: 11px;
   content: url(/Church/imagesChurch/icon/Shape.png);
-}/*# sourceMappingURL=header.css.map */
+} /*# sourceMappingURL=header.css.map */
