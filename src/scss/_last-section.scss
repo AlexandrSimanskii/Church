@@ -1,0 +1,63 @@
+.last-section {
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 128px 0;
+  padding: 128px 366px;
+  background-image: url(/Church/imagesChurch/img/Background.png);
+}
+.last-section-inner {
+  background-color: white;
+  border-bottom: 16px solid var(--beige);
+  padding: 72px 40px 72px 48px;
+}
+.last-section__text {
+  padding: 16px 0;
+}
+.last-section__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -0.01em;
+}
+.last-section-cards {
+  display: flex;
+  gap: 24px;
+}
+.last-section__card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #161722;
+  opacity: 0.78;
+}
+.last-section__card {
+  padding: 48px 32px;
+  background: #fff5eb;
+}
+.last-section__card-subtitle {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.08em;
+  color: #dc9853;
+}
+.last-section-end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.last-section__card-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  margin: 16px 0;
+}
+.last-section__card-name {
+  padding: 4px;
+  margin-top: 48px;
+  font-size: 18px;
+  line-height: 21px;
+}

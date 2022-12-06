@@ -1,0 +1,38 @@
+.church {
+  padding: 128px 0;
+  background: url(/Church/imagesChurch/img/churchbg.png) center/cover no-repeat;
+}
+.church__subtitle {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+.church__title {
+  margin: 16px 0 32px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 82px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.church__end {
+  position: relative;
+  left: 30px;
+  margin-top: 64px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.church__end::before {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 1px;
+  background-color: var(--beige);
+
+  top: 12px;
+  left: -30px;
+}

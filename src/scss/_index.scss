@@ -1,0 +1,35 @@
+.header {
+  background-color: #0d0d0d;
+  padding: 12px 0;
+}
+.header__link {
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #ffffff90;
+}
+.header__left {
+  display: flex;
+  column-gap: 128px;
+  align-items: center;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+}
+.header__menu {
+  display: flex;
+  column-gap: 48px;
+}
+.header__title {
+  position: relative;
+}
+.header__title::before {
+  content: "";
+  height: 80px;
+  width: 2px;
+  background-color: white;
+  position: absolute;
+  top: -20px;
+  right: -64px;
+}

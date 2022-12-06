@@ -1,0 +1,28 @@
+.sub-church__title {
+  margin: 64px 0 16px;
+  text-align: center;
+}
+.sub-church__cards {
+  display: flex;
+  column-gap: 24px;
+}
+.sub-church__card {
+  background-color: #fff5eb;
+  padding: 80px;
+  border-bottom: 16px solid #ffd2a4;
+}
+
+.sub-church__card-title {
+  padding: 24px 0 8px;
+}
+.sub-church__subtitle {
+  margin: 128px 0 16px;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.sub-church__text {
+  display: block;
+  text-align: center;
+}

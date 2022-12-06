@@ -1,0 +1,52 @@
+.read-more__link::after {
+  content: url(/Church/imagesChurch/icon/Shape.png);
+}
+.read-more {
+  margin-bottom: 128px;
+}
+.read-more__title {
+  margin: 16px 0;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: -0.01em;
+}
+.read-more__subtitle {
+  padding-top: 64px;
+  line-height: 19px;
+}
+.read-more__text {
+  display: block;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  opacity: 0.78;
+}
+.section-block {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.read-more__images {
+  display: flex;
+  justify-content: center;
+  margin: 104px 0 232px;
+
+  column-gap: 438px;
+}
+.read-more__link {
+  margin: 16px auto;
+}
+.read-more__btn {
+  flex: none;
+  position: absolute;
+  top: 56px;
+  left: 50%;
+  transform: translate(-50%);
+  margin: 0 auto;
+}
+.read-more__img {
+  position: absolute;
+  top: 168px;
+}

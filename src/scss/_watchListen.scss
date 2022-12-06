@@ -1,0 +1,162 @@
+.watch-listen {
+  background-color: #f5f2f0;
+  padding: 128px 0;
+}
+.watch-listen__text {
+  text-align: center;
+  display: block;
+}
+.watch-listen__title {
+  text-align: center;
+  display: block;
+  padding: 20px 0 64px;
+}
+.watch-listen-cards {
+  display: flex;
+  gap: 24px;
+  color: white;
+}
+
+.cards__second {
+  background-image: url(/Church/imagesChurch/img/a-statue-holding-a-holy-book-5613134.png);
+}
+.cards__third {
+  background-image: url(/Church/imagesChurch/img/man-people-woman-connection-6276711.png);
+}
+.cards__forth {
+  background-image: url(/Church/imagesChurch/img/woman-in-blue-tank-top-and-man-in-red-shirt-painting-3795022.png);
+}
+.watch-listen-card {
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  padding: 296px 32px 32px;
+  background-repeat: no-repeat;
+}
+
+.cards__one {
+  padding: 208px 32px 32px;
+  background-image: url(/Church/imagesChurch/img/fashion-man-love-people-5875438.png);
+}
+
+.watch-listen-cards_white {
+  color: white;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  opacity: 0.78;
+  margin: 16px 0 32px;
+}
+
+.join-us__text {
+  margin: 128px 0 16px;
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  line-height: 19px;
+  color: #161722;
+}
+.join-us__title {
+  margin-bottom: 64px;
+  display: block;
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  color: #161722;
+}
+.join-us__cards {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 48px;
+}
+.join-us__card {
+  position: relative;
+  padding: 61px 32px 61px 89px;
+  background-color: #fff5eb;
+}
+.join-us__img {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.join-us__btn {
+  color: #ffd2a4;
+  background-color: #161722;
+  backdrop-filter: blur(40px);
+  border-radius: 12px;
+  padding: 24px 64px;
+  margin: 32px 0 61px;
+}
+.join-us__card__title {
+  padding: 16px 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  color: #161722;
+}
+.join-us__card__text {
+  margin: 16px 0;
+  line-height: 24px;
+  color: #161722;
+  opacity: 0.78;
+  position: relative;
+}
+.join-us__card__data {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 32px 32px 0 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  color: #161722;
+}
+.join-us__card__data2 {
+  position: absolute;
+  top: 56px;
+  right: 0;
+  padding-right: 32px;
+}
+.join-us-card__top-text {
+  background: linear-gradient(109.61deg, #a54e2b -53.83%, #dc9853 62.61%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.08em;
+}
+.time {
+  display: flex;
+}
+.time::before {
+  padding: 16px 16px 0 0;
+
+  content: url(/Church/imagesChurch/icon/Clock\ icon.png);
+}
+.place {
+  display: flex;
+}
+.place::before {
+  padding: 16px 16px 0 0;
+  content: url(/Church/imagesChurch/icon/Icon.png);
+}
+.join-us_link {
+  position: relative;
+  display: block;
+  text-align: end;
+  font-size: 24px;
+  line-height: 32px;
+  color: #161722;
+}
+.join-us_link::after {
+  position: absolute;
+  top: -10%;
+  padding-left: 11px;
+  content: url(/Church/imagesChurch/icon/Shape.png);
+}
